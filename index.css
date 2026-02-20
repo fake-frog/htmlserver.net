@@ -1,0 +1,20 @@
+body {
+    background-color: #ffff;
+}
+
+.headline {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 100px 50px;
+    background-color:#f5fff8;
+    color: #099c72;
+    margin-bottom: 60px;
+}
+
+h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 100;
+    font-size: 64px;
+    text-transform: uppercase;
+}
