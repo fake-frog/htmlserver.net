@@ -1,0 +1,109 @@
+:root {
+    --accent:  #e35420;
+    --gray-11: #111111;
+    --gray-1c: #1c1c1c;   
+    --gray-22: #222222;
+    --gray-44: #444444;
+    --gray-66: #666666;
+    --gray-77: #777777;    
+    --gray-7c: #7c7c7c;
+    --gray-99: #999999;
+    --gray-aa: #aaaaaa;   
+    --purple:  #f752c0;
+}
+
+::selection {
+    background: var(--gray-1c);
+    color: var(--accent);
+}
+
+@font-face {
+    font-family: "Satoshi";
+    src: url(../assets/fonts/Satoshi-Variable.woff2);
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: "Satoshi";
+    src: url(../assets/fonts/Satoshi-VariableItalic.woff2);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Terminus";
+    src: url(../assets/fonts/Terminus.ttf);
+    font-style: normal;
+}
+
+body {
+    background-color: var(--gray-11);
+    color: var(--gray-aa);
+}
+
+.headline {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 100px 50px;
+    margin-bottom: 60px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 40px;
+}
+
+.home-container {
+    width: 100%;
+    display: flex;
+
+}
+
+.blog-list {
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.poster {
+    font-family: "Satoshi";
+    font-size: 48px;
+    font-weight: 900;
+    background: var(--gray-22);
+    padding: 10px;
+    color: var(--gray-77);
+}
+
+h1 {
+    font-family: "Satoshi";
+    font-weight: 800;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: "Satoshi";
+    font-weight: 600;
+    font-size: 20px;
+}
+
+p {
+    font-size: 16px;
+    font-family: "Satoshi";
+    font-weight: 580;
+    line-height: 1.3em;
+    letter-spacing: 0.01em;
+    text-wrap: pretty;
+    max-width: 720px;
+}
+
+a {
+    font-size: 18px;
+    font-family: "Terminus";
+    color: var(--accent);
+}

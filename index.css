@@ -1,5 +1,19 @@
+@font-face {
+    font-family: "Satoshi";
+    src: url(../assets/fonts/Satoshi-Variable.woff2);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Satoshi";
+    src: url(../assets/fonts/Satoshi-VariableItalic.woff2);
+    font-style: italic;
+    font-weight: normal;
+}
+
 body {
-    background-color: #ffff;
+    background-color: #fefa;
 }
 
 .headline {
@@ -12,9 +26,37 @@ body {
     margin-bottom: 60px;
 }
 
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 40px;
+}
+
+.home-container {
+    width: 100%;
+    display: flex;
+
+}
+
+.blog-list {
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 h1 {
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Satoshi";
     font-weight: 100;
-    font-size: 64px;
-    text-transform: uppercase;
+    font-size: 42px;
+}
+
+h2 {
+    font-family: "Satoshi";
+    font-size: 32px;
+}
+
+p {
+    font-family: "Satoshi";
 }
